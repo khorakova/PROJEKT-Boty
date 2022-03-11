@@ -4,7 +4,128 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    font-family: 'Rubik', sans-serif;
+    background-color: #f5f5f5;
 }
+
+.box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 670px;
+    height: 440px;
+    display: flex;
+    box-shadow: 5px 5px 20px #959595;
+    border-radius: 10px;
+}
+
+.left {
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    width: 50%;
+    flex-shrink: 0;
+    border-radius: 10px 0 0 10px;
+    padding: 30px;
+    color: white;
+}
+
+.slogan {
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.priceInfo {
+    position: absolute;
+    bottom: 30px;
+    right: 365px;
+    text-align: right;
+}
+
+.price {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.guarantee {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.shoe {
+    position: absolute;
+    left: -80px;
+}
+
+.right {
+    background-color: white;
+    width: 50%;
+    flex-shrink: 0;
+    border-radius: 0 10px 10px 0;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    font-size: 15px;
+    font-weight: 400;
+    color: #959595;
+    margin-top: 5px;
+}
+
+.description {
+    font-size: 14px;
+    border-bottom: 1px solid #06d7c1;
+    padding-bottom: 30px;
+    margin: 20px 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.size {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.size li {
+    font-size: 14px;
+    padding: 5px;
+    margin: 0 8px;
+}
+
+.selected {
+    color: #f15f42;
+    border: 1px solid #f15f42;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    background-color: #f15f42;
+    padding: 10px 30px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 30px;
+}
+
+
+
+
 
 /*
  BARVY
